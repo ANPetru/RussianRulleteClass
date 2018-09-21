@@ -63,7 +63,6 @@ public class MainActivity extends AppCompatActivity {
                 public void onClick(View v) {
 
                     if (gameOver) return;
-
                         v.setEnabled(false);
                         if (v == bulletButton) {
                             bang();
